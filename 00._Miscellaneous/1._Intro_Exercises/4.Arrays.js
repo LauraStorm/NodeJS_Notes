@@ -71,10 +71,16 @@ console.log(diet);
 // Exercise 6 - Copy array
 
 // You really like your daily diet from last exercise. Copy it to a new array called dinnerTray so you can give it to a friend.  
-const dinnerTray = diet;
+const dinnerTray = [... diet];
 
 console.log("Exercise 6: ");
 console.log(dinnerTray);
+
+// Checks that you can add element to dinnerTray array - ' [... array] ' --> shallow copy
+//dinnerTray.push('fries')   
+//console.log(dinnerTray);
+//console.log(diet);
+
 
 
 // -------------------------------------- //
