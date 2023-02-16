@@ -67,4 +67,5 @@ const factCapitalizedJ = fact.replace('j', 'J');
 console.log("Exercise 7: ");
 console.log(factCapitalizedJ);
 
+
 // --------------------------------------

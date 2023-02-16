@@ -1,0 +1,12 @@
+Anatomy of an URL 
+
+http://localhost/kickdinosaur/:id?size=1200
+  |          |             endtpoint
+protocol  domain 
+
+
+
+
+
+Notes:
+query sting = det samme som requestparam
